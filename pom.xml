@@ -24,15 +24,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Selenium for browser automation -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <!-- Maven Compiler Plugin -->
