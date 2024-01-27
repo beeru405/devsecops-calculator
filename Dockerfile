@@ -1,5 +1,5 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11-jdk-alpine
 
-COPY target/your-calculator-app.jar /app/your-calculator-app.jar
+COPY target/calculator-app.jar /app/calculator-app.jar
 
-CMD ["java", "-jar", "/app/your-calculator-app.jar"]
+CMD ["java", "-jar", "/app/calculator-app.jar"]
